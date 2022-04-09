@@ -1,0 +1,62 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: url("https://images2.alphacoders.com/677/677737.png");
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Comic Sans MS";
+}
+.top{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color:#ffffff4d ;
+    height: 40px;
+}
+.nav li{
+    display: inline-block;
+}
+li{
+    text-decoration: none;
+}
+.top1{
+    float: right;
+}
+.nav li a{
+    line-height: 40px;
+    padding: 0px 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff0000 !important;
+}
+.audio{
+    display: flex;
+    transform: translateY(284px);
+    left: 300px;
+    position: absolute;
+}
+.info{
+    display: flex;
+    transform: translateY(175px);
+    left: 237px;
+    position: absolute;
+    font-size: 50px;
+    color: #ff7f7f8c;
+}
+.lyric{
+
+    display: flex;
+    transform: translateY(352px);
+    left: 330px;
+    position: absolute;
+    font-size: 18px;
+}
+.subly li{
+    list-style-type: none;
+}
